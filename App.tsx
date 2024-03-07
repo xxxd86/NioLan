@@ -42,6 +42,7 @@ function Section({children, title}: SectionProps): React.JSX.Element {
         ]}>
         {title}
       </Text>
+      <Text>你好世界</Text>
       <Text
         style={[
           styles.sectionDescription,
@@ -54,7 +55,6 @@ function Section({children, title}: SectionProps): React.JSX.Element {
     </View>
   );
 }
-
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
 
