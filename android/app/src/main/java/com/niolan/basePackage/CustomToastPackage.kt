@@ -7,6 +7,7 @@ import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.uimanager.ReactShadowNode
 import com.facebook.react.uimanager.ViewManager
 import com.niolan.baseModule.ToastModule
+import com.niolan.viewmanager.RCTPdfManager
 import java.util.Collections
 
 class CustomToastPackage : ReactPackage{
